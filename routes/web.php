@@ -51,7 +51,7 @@ Route::group(['middleware'=>['allow']],function()
 Route::group(['middleware'=>['room']],function()
 {
     Route::any('/room','App\Http\Controllers\room@roomentry'); 
-    Route::post('/msg1','App\Http\Controllers\Ajaxroom@msg1'); 
+    Route::any('/msg1','App\Http\Controllers\Ajaxroom@msg1'); 
     Route::post('/msg','App\Http\Controllers\Ajaxroom@msg'); 
     Route::get('/deleteroom','App\Http\Controllers\room@delete'); 
     Route::get('/roomlogout','App\Http\Controllers\room@logout'); 
@@ -60,46 +60,8 @@ Route::group(['middleware'=>['room']],function()
  
 
 
-    
 
 
-
-
-
-Route::get('/msg',function(){
-
-    return view("broke");
-}); 
-Route::get('/msg1',function(){
-
-    return view("broke");
-}); 
-
-   
- 
-Route::get('/changepasswordform',function(){
-
-    return view("broke");
-}); 
-
-Route::get('/signupform',function(){
-
-    return view("broke");
-}); 
-Route::get('/loginform',function(){
-
-    return view("broke");
-}); 
-
-Route::get('/password',function(){
-
-    return view("broke");
-}); 
-
-Route::get('/newpass',function(){
-
-    return view("broke");
-}); 
 
 });
 

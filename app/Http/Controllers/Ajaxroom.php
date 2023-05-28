@@ -76,19 +76,25 @@ class Ajaxroom extends Controller
          $key=$request->post('KEY');
          $username=$request->post('username');
          
-          $col= array("#9cd7d4","#90ADE3","#b07b96","#dcc7aa", "#f4decb","#F1C4C5","#ff4c4c","#da8c62","#ed4e89","#a7bc5b");
-           $i=0;
+          $col= array("#90ADE3","#b07b96","#dcc7aa", "#f4decb","#F1C4C5","#ff4c4c","#da8c62","#ed4e89","#a7bc5b");
+          $i=0;
           $color=array();
           $user=DB::table('rooms')->where('room',$room)->distinct()->pluck("msg","user");
+
           foreach ( $user as $index=>$user)
           {
+              if($user!=$username)
+              {
                $color[$i]=$user;
                   $i=$i+1;
+              }
+               
           }
         
-         $data="";
+    $data="";
      $haha=DB::table('rooms')->where('room',$room)->get();  
      $roll=0;
+     $spacefactor=0;
     $info=array();
 
 
@@ -118,10 +124,10 @@ class Ajaxroom extends Controller
               }
               else{
 
-         $data = $data."<div class='container' style='background-color:".$used."; color:white; position:relative; left:38%;  width:60%;
+         $data = $data."<div class='container' style='background-color:#9cd7d4; color:white; position:relative; left:38%;  width:60%;
          border-radius:5px;   box-shadow: 0 1px 5px rgba(0,0,0,0.2);'>";
          $data=$data.'<img id="main" src ="\pic/reply.png" align="right" style=" height:25px; width:25px; display:inline; position:relative; top:0px; right:0px; z-index:100;">';
-          $data = $data." <p style='background-color:".$used."; color:white; font-weight:bold ; font-size:100% ;'>@".$user.":<br>";
+          $data = $data." <p style='background-color:#9cd7d4; color:white; font-weight:bold ; font-size:100% ;'>@".$user.":<br>";
           $data = $data."<span class='messagebody'>".$msg."</span>";
             $data = $data."<br></p><span class='time-right'><strong><em>".$time."</em></strong></span></div><br>";
 
