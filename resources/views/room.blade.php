@@ -185,7 +185,7 @@ jQuery(function($) {
 
 
    $(window).bind('beforeunload', function(){
-        window.location='/HERMES/deleteroom';
+        window.location='/deleteroom';
        
    });
 
@@ -196,7 +196,7 @@ jQuery(function($) {
      
      var session ='<%=Session[`room`] != null%>';
             if (session == false) {
-                window.location='/HERMES/deleteroom';
+                window.location='/deleteroom';
             }
       
            

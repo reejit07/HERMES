@@ -107,7 +107,7 @@ class room extends Controller
         if($usernumber>=10&&$present=0)
         {
                 
-             return redirect("/HERMES/chatroom")->with("wrong","Room is already taken ! Try creating new room");
+             return redirect("/chatroom")->with("wrong","Room is already taken ! Try creating new room");
         }
         
          if($usernumber==0)
@@ -119,7 +119,7 @@ class room extends Controller
           $message1=$this->encryptlevel1($message1,$key);
           $this->entryMessage($message1,$roomname,$username);
           
-          return redirect("/HERMES/room");
+          return redirect("/room");
 
          }         
          
@@ -135,7 +135,7 @@ class room extends Controller
          if($message!=$speech)
          {
                
-             return redirect("/HERMES/chatroom")->with("wrong","Failed to decrypt message ! Check your key");
+             return redirect("/chatroom")->with("wrong","Failed to decrypt message ! Check your key");
          }
 
         
@@ -146,7 +146,7 @@ class room extends Controller
          $message1=$this->encryptlevel1($message1,$key);
       $this->entryMessage($message1,$roomname,$username);
 
-         return redirect("/HERMES/room");
+         return redirect("/room");
       
     }
 
@@ -173,7 +173,7 @@ class room extends Controller
        session()->forget("room");
        session()->forget("roll");
        session()->forget("key");
-     return redirect("/HERMES/chatroom");
+     return redirect("/chatroom");
 
 
 
@@ -187,7 +187,7 @@ class room extends Controller
      session()->forget("room");
      session()->forget("key");
      session()->forget("roll");
-      return redirect("/HERMES/chatroom");
+      return redirect("/chatroom");
 
  }
 
