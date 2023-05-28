@@ -1,0 +1,23 @@
+set HTTP_PROXY=http://172.16.199.40:8080             //sometimes proxy becomes a issue
+set HTTPS_PROXY=https://172.16.199.40:8080
+
+git remote -v  //check remote
+
+git remote rm heroku  //remove remote
+
+git remote add heroku git@heroku.com:chatwithhermes.git //add remote
+
+heroku git:remote -a chatwithhermes //add remote
+
+git init // initialise a git folder
+
+git add . //add the files to git
+
+git commit -m "" // overwrite it
+
+git push heroku master  //push to heroku
+
+heroku login // log into heroku
+
+heroku run bash //run heroku bash (proxy error)
+

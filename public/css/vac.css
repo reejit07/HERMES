@@ -1,0 +1,195 @@
+#bar
+  {
+    
+     color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:19px;
+  }
+
+  #check
+  {
+     width:400px;
+     height:300px;
+     color:#3AAFA9;
+  }
+  
+    .style3
+    {
+        color:#FEFFFF;
+       font-family:'Ubuntu', sans-serif;
+    font-size:100px;
+
+
+    }
+    .gstyle2
+    {
+         color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size: 50px;
+
+    }
+    .gstyleone
+   {  
+       
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:17px;
+     
+
+   }
+    
+   .gstyle1
+   {
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:20px;
+
+   }
+
+
+  .gstyle
+   {
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:15px;
+     font-style: italic;
+
+   }
+
+   .gstyle3
+    {
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size: 100px;
+
+
+    }
+    .style2
+    {
+         color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size: 50px;
+
+    }
+    
+   .style1
+   {
+       color:#3AAFA9;
+       font-family:'Ubuntu', sans-serif;
+    font-size:40px;
+
+   }
+
+
+  .style
+   {
+        color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:15px;
+     font-style: italic;
+
+   }
+   
+   .green
+   {
+        color:#3AAFA9;
+         font-family:'Ubuntu', sans-serif;
+    font-size:15px;
+    
+
+   }
+   .box1
+   {
+      display:none;
+        font-size: 30px;
+        text-align: center;
+        color:#3AAFA9;
+     font-family: 'Archia Regular';
+        height:100px;
+        width:320px;
+     border:1px solid;
+     border-color:#3AAFA9;
+   }
+   .box2
+   {
+      display:none;
+        font-size: 40px;
+        text-align: center;
+        background:#edeeef;
+        color:#8C9399;
+        font-family: 'Archia Regular';
+         height:100px;
+        width:320px;
+   
+   }
+     .box3
+   {
+       display:none;
+        font-size: 40px;
+        text-align: center;
+        background:#ffe0e6 ;
+        color:#ff073a;
+        font-family: 'Archia Regular';
+    height:100px;
+        width:320px;
+   }
+     .box4
+   {
+       display:none;
+        font-size: 40px;
+        text-align: center;
+        background:#e4f4e8;
+        color:#28a745;
+    font-family: 'Archia Regular';
+    height:100px;
+        width:320px;
+   }
+     .box5
+   {
+      display:none;
+        font-size: 40px;
+        text-align: center;
+        background:#dfeeff;
+        color:#007bff;
+     font-family: 'Archia Regular';
+       height:100px;
+        width:320px;
+   }
+  .hidden
+   {
+          text-align: center;
+        font-size: 15px;
+        font-family: 'Archia Regular';
+        font-weight:700;
+      
+   }
+ #oo
+ {
+       padding: 50px;
+        font-size: 32px;
+     text-align:center;
+   
+     color :#3AAFA9 ;
+     background-color:#ECEFF1;
+       font-family:'Overlock SC', cursive;
+ }
+ 
+
+ 
+   .btn-primary
+  {
+     background-color:#FEFFFF;
+     color:#3AAFA9  ;
+    font-family:'Overlock SC', cursive;
+
+    } 
+   
+      img
+    {
+        
+        display:none;
+    }
+    
+    
+    
+    

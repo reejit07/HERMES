@@ -1,0 +1,415 @@
+
+    .btn-primary
+    {
+      position: relative;
+      display: inline-block;
+      padding: 8px 20px;
+      background: #3AAFA9;
+      color: #fff;
+      border-radius: 20px;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      border-color: #3AAFA9;
+      width:100%;
+      
+      }
+
+      .btn-primary:hover
+      {
+         position: relative;
+         display: inline-block;
+         padding: 8px 20px;
+         background: #4f9a96;
+         color: #fff;
+         border-radius: 20px;
+         text-decoration: none;
+         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+         border-color: #3AAFA9;
+         width:100%;
+        } 
+  
+  .firsthalf
+  {
+    position: relative;
+    top:45px; 
+  }
+  
+    .style3
+    {
+        color:#FEFFFF;
+       font-family:'Ubuntu', sans-serif;
+    font-size:100px;
+
+
+    }
+    .gstyle2
+    {
+         color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size: 50px;
+
+    }
+    .gstyleone
+   {  
+       
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:35px;
+     
+
+   }
+    
+   .gstyle1
+   {
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:20px;
+
+   }
+
+
+  .gstyle
+   {
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:17px;
+   
+
+   }
+
+   .gstyle3
+    {
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size: 100px;
+
+
+    }
+    .style2
+    {
+         color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size: 50px;
+
+    }
+    
+   .style1
+   {
+        color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:20px;
+
+   }
+
+
+  .style
+   {
+        color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:15px;
+     font-style: italic;
+
+   }
+   
+    #one
+    {
+      
+         height:300px;
+         
+        background-color:#3AAFA9;
+        text-align: center;
+        
+     
+    }
+   
+     .bstyle2
+    {
+         
+      font-family:'Overlock SC', cursive;
+      font-size: 40px;
+
+    }
+    .white
+    {
+      color:white;
+     
+    }
+    
+   .centered
+   {
+     position:relative;
+     top:20%;
+     
+   }
+  
+ 
+  
+
+
+    .greenbg
+    {
+      background-color:#3AAFA9; 
+    }
+    
+
+    
+    
+      #last
+    {
+         display:none;
+            text-align:center; 
+        padding: 50px 50px 50px 50px;
+    }
+   .content
+   {
+      text-align:center;    
+   }
+  
+   
+    .three
+   {
+      background-color:#3AAFA9;    
+   }
+    
+
+
+
+   .gstylethree
+   {  
+       
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:14px;
+     
+
+   }
+  
+  .add
+  {
+    font-size:40px;
+    padding-left:5px;
+    font-weight:600;
+    font-family:'Overlock SC', cursive;
+  }
+  
+
+
+  .col-div{
+    position: relative;
+  }
+ 
+  .col-div #left{
+     display:inline;
+      position: absolute;
+      top:40%;
+      left:2%;
+    }
+    .col-div #right{
+      display:inline;
+      top:40%;
+      right:2%;
+      position: absolute;
+    }
+ 
+  #left
+  {
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    
+  }
+ 
+  #right
+  {
+    border-radius:50%;
+    height:40px;
+    width:40px;
+  }
+ 
+  #left img
+  {
+    background-color: transparent;
+    height:20px;
+    width:20px;
+    margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+  }
+ 
+  #right img
+  {
+    background-color: transparent;
+    height:20px;
+    width:20px;
+    margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+  }
+
+
+
+
+body
+{
+   background-color: #F3F3F3;
+
+}
+
+.pad
+{
+   padding: 50px 50px 50px 50px;
+
+}
+
+
+
+.loginbtn
+{
+ background-color:#3AAFA9;
+     color:#FEFFFF ;
+     border-color: #277672;
+}
+
+
+
+.loggedin
+{
+   font-weight:600;
+   font-size: large;
+}
+
+.first
+{
+   background: url('fly.gif') no-repeat center center; 
+ 
+
+
+}
+
+
+.ball {
+   
+   position: absolute;
+   border-radius: 100%;
+   opacity: 0.7;
+ }
+
+
+ .dot{
+
+  display: inline-block;
+  height: 3px;
+  margin: 0 0.25rem;
+  width: 30px;
+}
+
+#p1
+{
+  background-color: rgb(218,220,224);
+
+}
+
+#p2
+{
+  background-color: rgb(218,220,224);
+}
+
+#p3
+{
+  background-color: rgb(218,220,224);
+
+}
+#p4
+{
+  background-color: rgb(218,220,224);
+
+}
+
+
+.navigate .active
+{
+    background: black;
+}
+
+
+
+
+
+
+
+ @media (min-width:857px)
+ {
+
+  .col-div{
+    position: relative;
+  }
+ 
+  .col-div #left{
+     display:inline;
+      position: absolute;
+      top:40%;
+      left:20%;
+    }
+    .col-div #right{
+      display:inline;
+      top:40%;
+      right:20%;
+      position: absolute;
+    }
+ 
+  #left
+  {
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    
+  }
+ 
+  #right
+  {
+    border-radius:50%;
+    height:40px;
+    width:40px;
+  }
+ 
+  #left img
+  {
+    background-color: transparent;
+    height:20px;
+    width:20px;
+    margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+  }
+ 
+  #right img
+  {
+    background-color: transparent;
+    height:20px;
+    width:20px;
+    margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+  }
+    
+
+
+
+ }
+
+ 
+
+
+ 

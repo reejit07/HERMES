@@ -1,0 +1,203 @@
+#bar
+  {
+    
+     color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:19px;
+  }
+#cred
+{
+     border : 2px solid #3AAFA9;
+    
+}
+
+  
+    .style3
+    {
+        color:#FEFFFF;
+       font-family:'Ubuntu', sans-serif;
+    font-size:100px;
+
+
+    }
+    .gstyle2
+    {
+         color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size: 50px;
+
+    }
+    .gstyleone
+   {  
+       
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size:35px;
+     
+
+   }
+    
+   .gstyle1
+   {
+          color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:20px;
+
+   }
+
+
+  .gstyle
+   {
+       color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:40px;
+    
+
+   }
+
+   .gstyle3
+    {
+        color:#3AAFA9;
+       font-family:'Overlock SC', cursive;
+    font-size: 100px;
+
+
+    }
+    .style2
+    {
+         color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size: 50px;
+
+    }
+    
+   .style1
+   {
+        color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:20px;
+
+   }
+
+
+  .style
+   {
+        color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:25px;
+    
+
+   }
+   
+  
+   
+   body
+   {
+       background: url('hermes.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+   }
+  
+  
+  
+    
+    input[type="text"] {
+          color:black;
+          background-color:transparent;
+         font-family:'Ubuntu', sans-serif;
+    margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #3AAFA9;
+      }
+    .gstyletwo
+   {  
+         color:#FEFFFF;
+       font-family:'Overlock SC', cursive;
+    font-size:17px;
+     
+
+   }
+   
+
+
+    
+
+.drop {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  box-shadow:20px 20px 50px rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+
+}
+
+a.red{
+
+   position: relative;
+   display: inline-block;
+   padding: 8px 20px;
+   margin-top: 15px;
+   background: #3AAFA9;
+   color: #fff;
+   border-radius: 20px;
+   text-decoration: none;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+   
+}
+a.red:hover {
+  position: relative;
+   display: inline-block;
+   padding: 8px 20px;
+   margin-top: 15px;
+   background: #4f9a96;
+   color: #fff;
+   border-radius: 20px;
+   text-decoration: none;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.content
+{
+
+  padding: 20px;
+}
+
+.content h3
+{
+
+  color: #fff;
+  font-size: 1.8em;
+  z-index:1;
+  
+}
+
+.content p{
+
+ font-size:1em;
+ color: #fff;
+ font-weight: 300;
+
+}
+
+
+
+
+.team
+{
+  position: relative;
+  left:20px;
+}
+
+#main
+{
+  position: relative;
+  top:65px; 
+}
