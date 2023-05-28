@@ -74,6 +74,7 @@ class Ajaxroom extends Controller
      
          $room=$request->post('room');
          $key=$request->post('KEY');
+         $username=$request->post('username');
          
           $col= array("#9cd7d4","#90ADE3","#b07b96","#dcc7aa", "#f4decb","#F1C4C5","#ff4c4c","#da8c62","#ed4e89","#a7bc5b");
            $i=0;
@@ -88,7 +89,6 @@ class Ajaxroom extends Controller
          $data="";
      $haha=DB::table('rooms')->where('room',$room)->get();  
      $roll=0;
-   $spacefactor=0;
     $info=array();
 
 
@@ -105,7 +105,7 @@ class Ajaxroom extends Controller
               $used=$col[$index];
            
             
-              if($spacefactor%2==0||$spacefactor==0)
+              if($user!=$username)
               {
                 
          $data = $data."<div class='container' style='background-color:".$used."; color:white; align:right; width:60%; 

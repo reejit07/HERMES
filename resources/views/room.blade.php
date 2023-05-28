@@ -220,7 +220,7 @@ jQuery(function($) {
        rutFunction();
      
       
-         $.post('msg1',{room:"{{$room}}",KEY:'{{$key}}',_token:_token},function(data,status)
+         $.post('msg1',{room:"{{$room}}",KEY:'{{$key}}',username:'{{$Username}}',_token:_token},function(data,status)
          {
        
               $.each(data ,function(index,data){
